@@ -9,6 +9,17 @@ Please refer to the following publications for more details on the application:
 - Kim J, Keenan BT, Lim DC, Lee SK, Pack AI, Shin C. Symptom-based subgroups of Koreans with obstructive sleep apnea. J Clin Sleep Med. 2018;14(3):437-43.
 - Mazzotti DR, Keenan BT, Lim DC, Gottlieb DJ, Kim J, Pack AI. Symptom subtypes of obstructive sleep apnea predict incidence of cardiovascular outcomes. Am J Respir Crit Care Med. 2019;200(4):493-506.
 
+### Dependencies:
+
+```
+install.packages("dplyr")
+install.packages("poLCA")
+install.packages("ggplot2")
+install.packages("reshape2")
+install.packages("tidyr")
+install.packages("gplots")
+```
+
 ### Quick start with example
 
 1. Clone or download this repository in your working directory
@@ -34,4 +45,7 @@ osa_subtypes(input_f = "my_data.csv", project_name = "MyProject", k=1:5)
 
 This will run LCA using 1 to 5 cluster solutions, generate a plot with Bayesian Information Criterion of each solution, and a heatmap with the proportion of each symptom category for each solution.
 
+### Questions or comments
+
+Please e-mail diegomaz@pennmedicine.upenn.edu
 
