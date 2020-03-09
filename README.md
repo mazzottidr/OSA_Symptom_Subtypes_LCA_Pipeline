@@ -34,16 +34,16 @@ osa_subtypes(input_f = "example_data/sample_data.csv", project_name = "SamplePro
 ### Using your own data
 
 To use the function `osa_subtypes()`, you will need a `.csv` file containing the following elements:
-- First column: SampleID ()
+- First column: SampleID (it has to be named this way)
 - Second to last column: Variables corresponding to symptoms. These variables should be numerically coded and correspond to categories of specific symptoms.
 
 Save the `.csv` file in your working directory and run (change file name and project name accordingly:
 
 ```
-osa_subtypes(input_f = "my_data.csv", project_name = "MyProject", k=1:5)
+osa_subtypes(input_f = "my_data.csv", project_name = "MyProject", k=1:4)
 ```
 
-This will run LCA using 1 to 5 cluster solutions, generate a plot with Bayesian Information Criterion of each solution, and a heatmap with the proportion of each symptom category for each solution.
+This will run LCA using 1 to 4 cluster solutions, generate a plot with Bayesian Information Criterion of each solution, and a heatmap with the proportion of each symptom category for each solution.
 
 ### Questions or comments
 
