@@ -62,7 +62,7 @@ osa_subtypes <- function(input_f=NULL,
                 scale_x_continuous(breaks = k_n) + 
                 theme_bw() +
                 xlab("Cluster solution (K)")
-        p
+        print(p)
         dev.off()
         
         # Get cluster membership for all cluster definitions
