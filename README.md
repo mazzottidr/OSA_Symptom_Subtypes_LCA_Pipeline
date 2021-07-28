@@ -47,5 +47,5 @@ This will run LCA using 1 to 4 cluster solutions, generate a plot with Bayesian 
 
 ### Questions or comments
 
-Please e-mail diegomaz@pennmedicine.upenn.edu
+Please e-mail droblesmazzotti@kumc.edu
 
